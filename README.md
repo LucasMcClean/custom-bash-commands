@@ -48,6 +48,9 @@ common processes.
 ### Functions
 
 **cdrepo**
+
+---
+
 This function likely will not work with your file system as it
 is specifically tailored for my system. You should, however, be
 able to modify it to suit your purposes. The way my system is
@@ -60,11 +63,17 @@ subdirectory, and optionally the file itself (e.x
 replace the directories to whatever is useful for you.
 
 **fullgit**
+
+---
+
 I almost always add, commit, and push at the same time so I put
 it all into one command. It's not an original idea but its
 super convenient.
 
 **modudef**
+
+---
+
 On my system the custom bash commands are stored in
 .udef_bash_commands and `nano .udef_bash_commands` can be annoying
 to type out. So I created a shortcut in this function. Just goes to

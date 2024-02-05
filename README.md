@@ -1,12 +1,12 @@
 # Custom Bash Commands
 
-### Purpose
+## Purpose
 
 These commands speed up my workflow by shortening the
 amount of time I have to spend typing and abstracting
 common processes.
 
-### Setup
+## Setup
 
 1. Open the bash terminal on your linux machine.
 2. In the home directory run
@@ -45,7 +45,7 @@ common processes.
    > Side note: you may change the message after `echo` to
    > be whatever you want or omit it completely.
 
-### Functions
+## Functions
 
 **cdrepo**
 

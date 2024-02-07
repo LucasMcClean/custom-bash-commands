@@ -26,7 +26,7 @@ common processes.
 
 4. At the bottom of the file add this:
 
-   ```
+   ```sh
    # Source user-defined functions
    if [ -f $HOME/.custom_bash_commands.sh ]; then
       . $HOME/.custom_bash_commands.sh

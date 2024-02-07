@@ -70,6 +70,14 @@ I almost always add, commit, and push at the same time so I put
 it all into one command. It's not an original idea but its
 super convenient.
 
+**webproj**
+
+---
+
+Setting up the basic file structure for a web project is usually
+the same. So I created a basic function to do just that and also,
+if desired, it can intialize a git repo at the same time.
+
 **modudef**
 
 ---

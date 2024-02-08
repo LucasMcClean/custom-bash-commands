@@ -41,9 +41,3 @@ function modudef {
     cd ~
     nano .udef_bash_commands.sh
 }
-
-
-# Modify this file
-function modudef {
-    nano .udef_bash_commands.sh
-}

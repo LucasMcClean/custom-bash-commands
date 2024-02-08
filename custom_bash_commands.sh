@@ -22,12 +22,21 @@ function webproj {
     mkdir styles
     if [[ "$2" = "git" ]]; then
         git init
+        if [[ -n "$3" ]]; then
+            git remote add origin $3
+            git branch -M main
+            git add .
+            git commit -m "initial files"
+            git push -u origin main
+        else
+            echo "failed to add origin"
+        fi
     else
         echo 'git not initialized'
     fi
 }
 
-# Modify this file
+# Navigate /home and modify this file
 function modudef {
     cd ~
     nano .udef_bash_commands.sh

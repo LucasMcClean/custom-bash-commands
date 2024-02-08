@@ -76,7 +76,9 @@ super convenient.
 
 Setting up the basic file structure for a web project is usually
 the same. So I created a basic function to do just that and also,
-if desired, it can intialize a git repo at the same time.
+if desired, it can intialize a git repo at the same time. If you
+provide a valid remote origin on github it will also set up the
+commit and push the initial files.
 
 **modudef**
 
